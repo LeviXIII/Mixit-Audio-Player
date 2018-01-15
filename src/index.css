@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.background {
+  position: absolute;
+  background-attachment: fixed;
+  background-image: url("../public/Images/musicBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.centerAlignPlayer {
+  display: flex;
+  justify-content: center;
+}
+
+.detailAlbumArt {
+  display: inline-block;
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+  margin-right: 2%;
+}
+
+.detailAlbumInfo {
+  display: inline-block;
+  width: 65%;
+  height: auto;
+}
+
+.detailNextArrow {
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 9%;
+  display: inline-block;
+  width: 5%;
+  height: auto;
+}
+
+.divAlbum {
+  position: relative;
+}
+
+.jumbotron {
+  margin-top: 2%;
+  background-image: url("../public/Images/musicBanner.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.jumbotron h1, p{
+  color: rgb(11, 71, 95);
+}
+
+.listAlbumArt {
+  display: block;
+  position: relative;
+  float: right;
+  margin-top: -9vh;
+  height: auto;
+  width: 5%;
+}
+
+.list-group {
+  margin-bottom: 0%
+}
+
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.783);
+  height: auto;
+  margin: 1%;
+}
+
+.noBorder {
+  border: none;
+  background: none; 
+}
+
+.playerPosition {
+  position: fixed;
+  bottom: 3%; 
+  width: 97%;
+  max-width: 97%;
+}
+
+.progress {
+  margin-bottom: 0%;
+  height: 15px
+}
