@@ -108,15 +108,6 @@ class App extends Component {
   }
 
   render() {
-    // let message;
-
-    // if (Object.keys(this.state.currentSong).length === 0) {
-    //   message = '';
-    // }
-    // else {
-    //   message = this.state.currentSong.artist+" - "+this.state.currentSong.title
-    // }
-
     return (
       <div className="container background">
       <div className="App">
